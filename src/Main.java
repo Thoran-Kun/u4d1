@@ -41,5 +41,7 @@ void main(String[] args) {
     //decidere se un numero è pari o dispari
     int pariDispari = Exe3.pariDispari(9);
     System.out.println("Il numero è: " + pariDispari);
-    
+
+    double areaTriangolo = Exe3.areaTriangolo();
+    System.out.println("l'area del triangolo è: " + areaTriangolo);
 }
