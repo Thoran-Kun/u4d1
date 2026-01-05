@@ -35,5 +35,11 @@ void main(String[] args) {
     System.out.println("la tua frase completa sarà così invertita: " + fraseInvertita);
 
     //--------------------------------- Esercizio 3 ----------------------------
+    double perimetro = Exe3.sum(30.6, 10.5);
+    System.out.println("la somma dei numeri decimali del perimetro è :" + perimetro);
 
+    //decidere se un numero è pari o dispari
+    int pariDispari = Exe3.pariDispari(9);
+    System.out.println("Il numero è: " + pariDispari);
+    
 }
